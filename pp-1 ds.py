@@ -207,6 +207,128 @@
 # obj.show()      
 
 
+# encapsulation method:::::
+
+# class a:
+#     _a = "this is the protected variable"
+#     __b = "this ia the private variable"
+#     def show(self):
+#         print("this is the public method",self._a)
+#         print("this is the private method",self.__b)
+
+# obj = a()        
+# obj.show()
+
+
+
+# num = int(input("enter the number: "))
+
+# for i in range(1,11):
+#     print(num,"*",i,"=",num*i)
+
+# class number:
+#     def set_integer(self,n):
+#         self.n = n
+#     def get_number(self):
+#             return self.n
+#     def print_number(self):
+#          print("the number is :",self.n)    
+#     def isnegative(self ):
+#          if (self.n < 0):
+#              print("the number is negative")
+
+#          else:
+#               print("the number is positive")
+
+#     def ispositive(self):
+         
+#          if (self.n > 0):
+#               print("the number is positive")
+
+#     def isabsolute(self):
+#          if (self.n < 0 ):
+#               print("the absolute value of the number is ",self.n*-1)   
+
+
+# obj = number()
+# num = int(input("enter the number: "))
+
+# obj.set_integer(num)
+# obj.get_number()
+# obj.print_number()
+# obj.isnegative()
+# obj.ispositive()
+# obj.isabsolute()
+
+# class fruit:
+#     count = 0
+#     def __init__(self,name="",color="",size=0):
+#         self.n = name
+#         self.c = color
+#         self.s = size
+
+
+# sum of natural number::
+
+# # def sum(n):
+#     if n ==0:
+#         return 0
+# #     elif n ==1 or n == 2:
+# #         return 1
+# #     else:
+# #         return n + sum(n-1)
+    
+# # num = int(input("enetr any number:"))    
+
+# # result =sum(num)
+# # print("the sum of first",num,"natural number id",result)
+
+# # def factorial(n):
+# #     if n ==0 :
+# #         return 1
+# #     elif n == 1:
+# #         return 1
+# #     else:
+# #         return n * factorial(n-1)
+    
+# # num = int(input("enter any number: "))    
+# # result = factorial(num)
+# # print("the result of the above programme is",num,result)
+
+
+# def factorial(n):
+#     if n == 0:
+#         return 0
+#     elif n == 1:
+#         return 1
+#     else:
+#         return n* factorial(n-1)
+    
+# num = int(input("enter any number: "))    
+
+# result = factorial(num)
+# print(result,num)
+
+# def fabionacci(n):
+#     if n == 0 or n == 1:
+#         return 1
+#     elif n ==2 :
+#         return 2
+#     else:
+#         return fabionacci(n-1)+fabionacci(n-2)
+    
+# num = int(input("enter any number: "))    
+# result = fabionacci(num)
+# print(num,result)
+
+    
+
+
+
+  
+
+                  
+
 
         
 
